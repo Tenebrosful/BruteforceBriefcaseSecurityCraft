@@ -51,7 +51,7 @@ const startingTime = Date.now();
 
 // @TODO : Find a way to stop the program earlier if we need to force stop it
 
-for (let code = 0; code < 1120; code++) {
+for (let code = 0; code < 10000; code++) {
   console.log(code);
   if (code !== 0) changeNumber(code);
 
